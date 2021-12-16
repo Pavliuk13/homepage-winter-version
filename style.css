@@ -116,8 +116,8 @@ body {
     justify-content: center;
 }
 
-.contact-info__item-icon path {
-    fill: var(--icon-color);
+.contact-info__item-icon {
+    color: var(--icon-color);
 }
 
 .contact-info__item-icon {
@@ -129,6 +129,7 @@ body {
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    margin-left: 40%;
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
