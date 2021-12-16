@@ -66,7 +66,7 @@ body {
         margin-bottom: 20px;
     }
 
-    .experiences {
+    .timeline {
         margin-right: 0;
     }
 }
@@ -172,25 +172,25 @@ body {
     text-align: justify;
 }
 
-.experiences {
+.timeline {
     flex: 1 1 60%;
     margin-right: 50px;
 }
 
-.experiences__header {
+.timeline__header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
 }
 
-.experiences__company-header-durability {
+.timeline__date-header-durability {
     color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
-.experiences__company-header-name {
+.timeline__date-header-name {
     color: var(--primary-text-color);
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
@@ -198,25 +198,25 @@ body {
     margin-bottom: 20px;
 }
 
-.experiences__company-project {
+.timeline__date-theme {
     margin-left: 15px;
     margin-bottom: 25px;
 }
 
-.experiences__company-project-role {
+.timeline__date-theme-day {
     color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
-.experiences__company-project-name {
+.timeline__date-theme-name {
     color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
 }
 
-.experiences__company-project-responsibilities {
+.timeline__date-theme-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
 }
@@ -249,6 +249,10 @@ body {
 }
 
 .additional-info__education-university-name {
+    color: var(--secondary-text-color);
+}
+
+.timeline__date-theme-desc {
     color: var(--secondary-text-color);
 }
 
